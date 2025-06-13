@@ -45,15 +45,4 @@
 - **Validation:**  
   After writing, it reloads the file to verify that the value was actually updated.
 
----
-
-### Error Handling
-
-- Uses `try/except` blocks throughout the code to safely handle:
-  - Missing directories
-  - Locked or open files
-  - Permission errors
-  - Invalid user input
-
-- If something fails at any stage, the tool prints an error message and exits gracefully.
-
+##### It is a bit too complicated for its own good😅. However I wanted to make sure it lasted for a while AND it gave me something to work off of.
